@@ -1,0 +1,901 @@
+/*out font links 1st link for (inter)->font name and 2nd link for (miama)-> font name*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    background-color: black;
+}
+
+.container {
+    margin-left: 190px;
+    margin-right: 190px;
+    
+}
+
+/*this font using our header section h1> span tag*/
+.miama {
+    font-family: miama;
+    font-size: 7.7rem;
+
+}
+
+/*buttons style*/
+
+.button-primery {
+    padding: 10px 15px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    font-size: 1.1rem;
+
+}
+
+.button-primery:hover {
+    background-color: #E6533C;
+    transform: scale(1.1);
+    transition: ease-in 0.70s;
+    border: 1px solid #ffffff;
+}
+
+/* all text h2 and p tag styles */
+
+.text-area .heading-two  {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: inter;
+}
+
+.text-area .pera  {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #ffffff79;
+    text-align: center;
+    font-family: inter;
+}
+
+/*header section navbar or manu*/
+
+.navbar-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+}
+
+.navbar-section h3 {
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+
+.navbar-section ul {
+    display: flex;
+    border: 1px solid rgb(38, 41, 45);
+    border-radius: 50px;
+    padding: 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.navbar-section ul>li {
+    list-style: none;
+    margin: 1px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.navbar-section ul>li:hover {
+    background-color: #E6533C;
+    transform: scale(1.1);
+    transition: ease-in 0.70s;
+}
+
+.navbar-section ul>li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*header text and background image*/
+
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.header-section .text-and-button h1 {
+    font-size: 4.7rem;
+    font-weight: bold;
+    overflow: hidden;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 28px;
+    color: #ffffff;
+}
+
+.header-section .text-and-button p {
+    font-size: 1rem;
+    overflow: hidden;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 28px;
+    color: #ffffff;
+}
+
+.header-section .text-and-button .first-button {
+    margin-left: 20px;
+
+}
+
+
+
+.text-and-button {
+    overflow: hidden;
+    float: left;
+    height: 563px;
+    width: 452px;
+    
+}
+
+
+/* header image and buttons */
+
+.header-image {
+    overflow: hidden;
+    float: left;
+    display: block;
+        
+}
+
+.header-first-button {
+    position: absolute;
+    z-index: 99;
+    margin-left: 219px;
+    margin-top: 165px;
+    overflow: hidden;
+}
+
+
+.image {
+    position: relative;
+    z-index: 2;
+}
+
+.header-second-button {
+    position: absolute;
+    z-index: 98;
+    overflow: hidden;
+    margin-left: -18px;
+    margin-top: -150px;
+}
+
+.header-image button {
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    background: #ffffff40;
+    border-radius: 10px;
+    border: none;
+}
+
+.header-image button .free {
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+/* Change Your Habits section */
+
+.round-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+.round-card .card {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.round-card .card .card-image img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 1px solid #ffffff81;
+    transition: 2s;
+}
+
+.round-card .card .card-image img:hover {
+    
+    transform: scale(0.8);
+    transition: 1s;
+}
+
+.round-card .card .card-text h3 {
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 5s;
+}
+
+.round-card .card .card-text h3:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.round-card .card .card-text p {
+    font-size: 0.875rem;
+    color: #ffffff83;
+    font-weight: 400;
+}
+
+
+/* this is our your habit section or 3rd section */
+
+.run-section {
+    max-height: 2318.75%;
+    max-width: 66.25rem;
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    
+}
+
+.run-section .text-area {
+    padding: 20px;
+}
+
+.run-section .text-area h2 {
+    text-align: left;
+    transition: 5s;
+}
+
+.run-section .text-area h2:hover {
+    transform: translateX(125px);
+    transition: 3s;
+}
+
+.run-section .text-area p {
+    text-align: left;
+    transition: 5s;
+}
+
+.run-section .text-area p:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+    transition: 3s;
+}
+
+.run-section .run-image img {
+    max-height: 312px;
+    max-width: 366px;
+    border-radius: 10px;
+}
+
+
+/* this is our BMI calculator */
+
+.calculator {
+    text-align: left !important;
+}
+
+
+.calculator-area {
+    margin-bottom: 50px !important;
+    margin-top: 50px;
+}
+
+.calculator-box {
+    background: rgb(34, 34, 34);
+    padding: 30px;
+    height: 487px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.box .text-area h3 {
+    color: #ffffff;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #ffffff7b;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  
+  
+thead {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  
+th {
+    border: 1px solid #ffffff86;
+    padding: 16px 20px;
+    color: #ffffff;
+  }
+
+td {
+    border: 1px solid #ffffff79;
+    padding: 16px 14px;
+    color: #ffffff75;
+  }
+
+  /* form section style */
+
+  .box .text-area h3 {
+    color: #ffffff;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.box .text-area p {
+    font-size: 0.875rem;
+    color: #ffffff40;
+    font-weight: 400;
+}
+
+/* input style */
+
+.box form input, select {
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #4e4c4c;
+    color: #ffffff;
+}
+
+.box form select {
+    height: 50px;
+    width: 272px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #4e4c4c;
+    color: #ffffff;
+}
+
+.box form input::placeholder {
+    color: #ffffff;
+}
+
+
+.box form .button button {
+    padding: 10px 35px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.box form .button button:hover {
+    background-color: #E6533C;
+    transform: scale(1.1);
+    transition: ease-in 0.70s;
+    border: 1px solid #ffffff;
+}
+
+/* this is our image style */
+
+.image-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.trainer-image {
+    background-color: #222222;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.trainer-image .box-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+
+/*
+.trainer-image img {
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    
+}
+
+.trainer-image img:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+*/
+
+.box-image .trainer1 {
+    background-image: url(images/trainer1.png);
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+.trainer1:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+.box-image .trainer2 {
+    background-image: url(images/trainer2.png);
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+.trainer2:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+.box-image .trainer3 {
+    background-image: url(images/trainer3.png);
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+.trainer3:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+.box-image .trainer4 {
+    background-image: url(images/trainer4.png);
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+
+.trainer4:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+.box-image .trainer5 {
+    background-image: url(images/trainer5.png);
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+.trainer5:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+.box-image .trainer6 {
+    background-image: url(images/trainer6.png);
+    height: 212px;
+    width: 279px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+
+
+.trainer6:hover {
+    transform: scale(0.72);
+    transition: 3s;
+}
+
+.box-image .image-text {
+    padding: 5px;
+    margin-top: 162px;
+    transition: 5s;
+}
+
+.box-image .image-text h5 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    margin: 0;
+}
+
+.box-image .image-text:hover {
+    transform: scale(1.5);
+    transition: 3s;
+    
+}
+
+.box-image .image-text p {
+    color: #ffffff85;
+    font-size: 0.875rem;
+    font-weight: 400;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* this is our footer style */
+
+footer {
+    background-color: #222222;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.footer-section .footer-text {
+    margin-top: 0;
+}
+
+
+.footer-section .footer-text h1 {
+    font-size: 4.375rem;
+    font-weight: 600;
+    color: #E6533C;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.footer-section .footer-text p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #ffffff81;
+    letter-spacing: 0.3px;
+}
+
+.footer-section .started ul>li {
+    list-style: none;
+    margin: 20px;
+    transition: 5s;
+}
+
+.footer-section .started ul>li:hover {
+    transform: scale(1.5);
+    transition: 3s;
+}
+
+.footer-section .started ul>li h5 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.footer-section .started ul>li a {
+    text-decoration: none;
+    color: #ffffff8f;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: 5s;
+}
+
+
+.footer-section .started ul>li a:hover {
+    transition: 3s;
+    color: #ffffff;
+
+}
+
+.footer-section .copy .hrd {
+    height: 20px;
+    width: auto;
+    transition: 5s;
+}
+
+.footer-section .copy .hrd hr {
+    color: #ffffff76;
+    border: 1px solid #ffffff76;
+
+}
+
+.footer-section .copy .hrd:hover {
+    transform: scale(0.20);
+    transition: 1s;
+}
+
+.copy {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.copy p {
+    text-align: center;
+    color: #ffffff81;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px;
+}
+
+
+/* our media screen style */
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .miama {
+        font-size: 4.5rem;
+    }
+
+    .button-primery {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .text-area .heading-two {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .text-area .pera {
+        font-size: 0.75rem;
+        text-align: left;
+    }
+
+    /* Adjust Navbar */
+    .navbar-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-section h3 {
+        font-size: 1.75rem;
+    }
+
+    .navbar-section ul {
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-section ul > li {
+        margin: 5px 0;
+        padding: 10px 20px;
+    }
+
+    /* Header section */
+    .header-section {
+        flex-direction: column;
+    }
+
+    .text-and-button {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .header-section .text-and-button h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .header-section .text-and-button p {
+        font-size: 0.875rem;
+        text-align: left;
+    }
+
+    .header-button {
+        font-size: 0.9rem;
+        padding: 12px 40px;
+        margin: 10px;
+    }
+
+    .header-first-button {
+        margin-left: 396px;
+    }
+
+    .header-second-button {
+        margin-left: 140px;
+    }
+
+    .header-image {
+        
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        
+    }
+
+    .header-image button {
+        font-size: 1.5rem;
+        padding: 8px 15px;
+    }
+
+    /* Round card section */
+    .round-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .round-card .card {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    /* Run section */
+    .run-section {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .run-section .text-area h2 {
+        font-size: 1.75rem;
+    }
+
+    .run-section .text-area p {
+        font-size: 0.875rem;
+    }
+
+    .run-section .run-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Calculator section */
+    .calculator-box {
+        height: 100%;
+
+    }
+
+    .fst-input {
+        display: flex;
+    }
+
+    .snd-input {
+        display: flex;
+    }
+
+    .trd-input {
+        width: 96%;
+    }
+
+    .box form input, .box form select {
+        width: 100%;
+        display: flex;
+    }
+
+    .box form .button button {
+        width: 229px;
+        
+    }
+
+    /* Image section */
+    .trainer-image .box-image {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .box-image .trainer1,
+    .box-image .trainer2,
+    .box-image .trainer3,
+    .box-image .trainer4,
+    .box-image .trainer5,
+    .box-image .trainer6 {
+        width: 313px;
+        height: 272px;
+        margin: 15px;
+    }
+
+    .box-image .image-text {
+        
+        margin-top: 221px;
+        
+    }
+
+    /* Footer section */
+    .footer-section {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .footer-section .footer-text h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .footer-section .footer-text p {
+        font-size: 0.75rem;
+        text-align: left;
+    }
+
+    .footer-section .started ul {
+        padding: 0;
+    }
+
+
+    .footer-section .copy {
+        text-align: center;
+        padding: 20px;
+    }
+}
